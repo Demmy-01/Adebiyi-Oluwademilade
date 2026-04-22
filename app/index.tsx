@@ -1,3 +1,4 @@
+import { ThemedText } from "@/components/themed-text";
 import { useState } from "react";
 import {
   Alert,
@@ -6,8 +7,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-
-import { ThemedText } from "@/components/themed-text";
 
 export default function HomeScreen() {
   const [name, setName] = useState("");
